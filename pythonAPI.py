@@ -24,8 +24,11 @@ conversations = chatgpt_conversation(conversations)
 print('{0}: {1}\n'.format(conversations[-1]['role'].strip(), conversations[-1]['content'].strip()))
 
 while True:
+    print()
     prompt = input('User: ')
+    print('_________________________________')
     conversations.append({'role': 'user', 'content': prompt})
     conversations = chatgpt_conversation(conversations)
     print()
     print('{0}: {1}\n'.format(conversations[-1]['role'].strip(), conversations[-1]['content'].strip()))
+    print('_________________________________')

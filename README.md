@@ -7,3 +7,7 @@ This Repositoty is for studying and Sesearching
 ## What can it do (now)
 
 - Chat with ChatGPT using API key from created prompt
+
+## What could it do (future)
+
+- (Working on it)
